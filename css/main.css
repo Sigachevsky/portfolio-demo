@@ -129,7 +129,7 @@ body {
 	}
 
 	.gallery__left {
-		margin-top: calc(var(--index) *5);
+		margin-top: calc(var(--index) *2.5);
 	}
 
 
