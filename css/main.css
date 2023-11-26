@@ -89,36 +89,43 @@ body {
 
 @media (max-width: 488px) {
 
-	.gallery {
-		flex-direction: column;
-		padding: calc(var(--index) *4) 0;
-	}
-
-	.hero {
-		width: calc(var(--index) *31);
-		position: absolute;
-		left: 1vw;
-		margin-right: 1vh;
-		top: 5vh;
-		z-index: -1;
-	}
-	.main-header {
+	.hero-section {
 		height: 100vh;
 	}
+	.img-hero {
+		display: flex;
+		justify-content: center;
+	}
+	.hero {
+		position: static;
+		justify-content: center;
+		left: none;
+		margin-top: 5vh;
+	}
+	.main-header {
+		display: flex;
+		justify-content: center;
+		margin-top: -1vh;
+		height: 20vh;
+	}
+	/*  */
 	.container {
 		padding: 0 8vw;
 	}
+	/*  */
 	.main-title {
 		font-size: calc(var(--index) * 7);
-		position: absolute;
-		width: min-content;
+		position: static;
 		bottom: 12vh;
 		line-height: .9;
 	}
 
-	.gallery__right .gallery__item {
-		margin: 0;
-		margin-top: calc(var(--index) *4);
+	.gallery {
+		display: flex;
+		flex-direction: column;
+		padding: 0 0;
+		padding-bottom: calc(var(--index) *8);
 	}
+
 
 }
