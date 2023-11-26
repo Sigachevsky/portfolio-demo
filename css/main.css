@@ -90,7 +90,7 @@ body {
 @media (max-width: 488px) {
 
 	.hero-section {
-		padding-top: calc(var(--index) *2.5);
+		padding-top: calc(var(--index) *1);
 		height: 100vh;
 	}
 	.img-hero {
@@ -129,7 +129,7 @@ body {
 	}
 
 	.gallery__left {
-		margin-top: calc(var(--index) *2.5);
+		margin-top: calc(var(--index) *5);
 	}
 
 
