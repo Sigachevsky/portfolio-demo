@@ -9,10 +9,20 @@ if (ScrollTrigger.isTouch !==1) {
 		effects: true,
 	})
 
-	gsap.fromTo('.hero-section', { opacity: 1 }, { 
+	gsap.fromTo('.img-hero', { opacity: 1 }, { 
 		opacity: 0,
 		scrollTrigger: {
-			trigger: '.hero-section',
+			trigger: '.img-hero',
+			start: 'center',
+			end: '820',
+			scrub: true
+		} 
+	})
+
+	gsap.fromTo('.main-header', { opacity: 1 }, { 
+		opacity: 0,
+		scrollTrigger: {
+			trigger: '.main-header',
 			start: 'center',
 			end: '820',
 			scrub: true
