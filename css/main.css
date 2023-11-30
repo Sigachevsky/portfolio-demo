@@ -18,7 +18,7 @@
 	src: url(../fonts/outfit-regular.woff2);
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: outfit-c;
+	font-family: Roboto;
 }
 .content, .hero, .main-header, .gallery > * {
 	will-change: transform;
@@ -27,7 +27,7 @@ body {
 	background-image: url(../img/bg.jpg);
 	background-size: 50px;
 	color: #fafafa;
-	font-family: raleway-c;
+	font-family: Roboto;
 	overflow-x: hidden; /* отсутствие прокрутки по горизонтале у больших изображений */
 }
 .hero {
